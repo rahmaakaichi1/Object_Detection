@@ -26,7 +26,7 @@ flags.DEFINE_string('image_dir', '', 'Path to images')
 FLAGS = flags.FLAGS
 
 
-# TO-DO replace this with label map
+#  replace this with label map
 def class_text_to_int(row_label):
     if row_label == 'table':
         return 1
